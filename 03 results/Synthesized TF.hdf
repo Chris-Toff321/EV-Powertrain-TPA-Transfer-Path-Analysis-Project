@@ -1,0 +1,779 @@
+;
+; Copyright 1999 HEAD acoustics GmbH, Germany
+;
+; HEAD acoustics datafile format
+;
+version:                           4
+release:                           6
+;
+;#date of recording:               30975558-1810038670
+;                                  02.08.2022 16:03:59.538
+;#timezone:                        China Standard Time
+;
+;#code page:                       936
+byte order:                        Intel
+kind:                              Transfer
+;#moniker:                         
+start of data:                     65536
+nbr of abscissa:                   1
+nbr of channel:                    20
+;#nbr of subchannel:               0
+nbr of extra fields:               0
+;
+; Data organisation
+idx order:                         1
+ch order:                          1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20
+data org:                          a1b1 a2b2
+channel attributes:                private
+scan mode:                         simultaneous
+;
+abscissa definition:               1
+name str:                          Frequency
+abbreviation str:                  f
+physical quantity:                 frequency
+physical unit:                     Hz
+;#quantity domain:                 value
+absc sort:                         calc
+first value:                       84
+delta value:                       2
+nbr of scans:                      100
+distribution func:                 linear
+;
+channel definition:                1
+name str:                          +20r/-1r (-1r/+2
+;#ext name str:                    +20r/-1r (-1r/+20r) (calculated)
+abbreviation str:                  +2
+;#ext abbreviation str:            +20r/-1r
+title str:                         
+;#moniker:                         Analysis.Decoded
+physical channel nbr:              0
+;#group:                           2
+physical quantity:                 accelerance
+physical unit:                     m/(s^2*N)
+;#quantity domain:                 field
+delta ap K f:                      0
+delta ap corrected:                Yes
+;#dB reference:                    1
+quantisation func:                 linear
+composition:                       sample
+implementation type:               COMPLEX_FLOAT32
+graph style:                       curve
+;
+channel definition:                2
+name str:                          +20r/-3r (-3r/+2
+;#ext name str:                    +20r/-3r (-3r/+20r) (calculated)
+abbreviation str:                  +2
+;#ext abbreviation str:            +20r/-3r
+title str:                         
+;#moniker:                         Analysis.Decoded
+physical channel nbr:              0
+;#group:                           4
+physical quantity:                 accelerance
+physical unit:                     m/(s^2*N)
+;#quantity domain:                 field
+delta ap K f:                      0
+delta ap corrected:                Yes
+;#dB reference:                    1
+quantisation func:                 linear
+composition:                       sample
+implementation type:               COMPLEX_FLOAT32
+graph style:                       curve
+;
+channel definition:                3
+name str:                          +20r/-4r (-4r/+2
+;#ext name str:                    +20r/-4r (-4r/+20r) (calculated)
+abbreviation str:                  +2
+;#ext abbreviation str:            +20r/-4r
+title str:                         
+;#moniker:                         Analysis.Decoded
+physical channel nbr:              0
+;#group:                           5
+physical quantity:                 accelerance
+physical unit:                     m/(s^2*N)
+;#quantity domain:                 field
+delta ap K f:                      0
+delta ap corrected:                Yes
+;#dB reference:                    1
+quantisation func:                 linear
+composition:                       sample
+implementation type:               COMPLEX_FLOAT32
+graph style:                       curve
+;
+channel definition:                4
+name str:                          +20r/-5r (-5r/+2
+;#ext name str:                    +20r/-5r (-5r/+20r) (calculated)
+abbreviation str:                  +2
+;#ext abbreviation str:            +20r/-5r
+title str:                         
+;#moniker:                         Analysis.Decoded
+physical channel nbr:              0
+;#group:                           6
+physical quantity:                 accelerance
+physical unit:                     m/(s^2*N)
+;#quantity domain:                 field
+delta ap K f:                      0
+delta ap corrected:                Yes
+;#dB reference:                    1
+quantisation func:                 linear
+composition:                       sample
+implementation type:               COMPLEX_FLOAT32
+graph style:                       curve
+;
+channel definition:                5
+name str:                          +20r/-6r (-6r/+2
+;#ext name str:                    +20r/-6r (-6r/+20r) (calculated)
+abbreviation str:                  +2
+;#ext abbreviation str:            +20r/-6r
+title str:                         
+;#moniker:                         Analysis.Decoded
+physical channel nbr:              0
+;#group:                           7
+physical quantity:                 accelerance
+physical unit:                     m/(s^2*N)
+;#quantity domain:                 field
+delta ap K f:                      0
+delta ap corrected:                Yes
+;#dB reference:                    1
+quantisation func:                 linear
+composition:                       sample
+implementation type:               COMPLEX_FLOAT32
+graph style:                       curve
+;
+channel definition:                6
+name str:                          +20r/-7r (-7r/+2
+;#ext name str:                    +20r/-7r (-7r/+20r) (calculated)
+abbreviation str:                  +2
+;#ext abbreviation str:            +20r/-7r
+title str:                         
+;#moniker:                         Analysis.Decoded
+physical channel nbr:              0
+;#group:                           8
+physical quantity:                 accelerance
+physical unit:                     m/(s^2*N)
+;#quantity domain:                 field
+delta ap K f:                      0
+delta ap corrected:                Yes
+;#dB reference:                    1
+quantisation func:                 linear
+composition:                       sample
+implementation type:               COMPLEX_FLOAT32
+graph style:                       curve
+;
+channel definition:                7
+name str:                          +20r/-8r (-8r/+2
+;#ext name str:                    +20r/-8r (-8r/+20r) (calculated)
+abbreviation str:                  +2
+;#ext abbreviation str:            +20r/-8r
+title str:                         
+;#moniker:                         Analysis.Decoded
+physical channel nbr:              0
+;#group:                           9
+physical quantity:                 accelerance
+physical unit:                     m/(s^2*N)
+;#quantity domain:                 field
+delta ap K f:                      0
+delta ap corrected:                Yes
+;#dB reference:                    1
+quantisation func:                 linear
+composition:                       sample
+implementation type:               COMPLEX_FLOAT32
+graph style:                       curve
+;
+channel definition:                8
+name str:                          +20r/-9r (-9r/+2
+;#ext name str:                    +20r/-9r (-9r/+20r) (calculated)
+abbreviation str:                  +2
+;#ext abbreviation str:            +20r/-9r
+title str:                         
+;#moniker:                         Analysis.Decoded
+physical channel nbr:              0
+;#group:                           10
+physical quantity:                 accelerance
+physical unit:                     m/(s^2*N)
+;#quantity domain:                 field
+delta ap K f:                      0
+delta ap corrected:                Yes
+;#dB reference:                    1
+quantisation func:                 linear
+composition:                       sample
+implementation type:               COMPLEX_FLOAT32
+graph style:                       curve
+;
+channel definition:                9
+name str:                          +20r/-10r (-10r/
+;#ext name str:                    +20r/-10r (-10r/+20r) (calculated)
+abbreviation str:                  +2
+;#ext abbreviation str:            +20r/-10r
+title str:                         
+;#moniker:                         Analysis.Decoded
+physical channel nbr:              0
+;#group:                           11
+physical quantity:                 accelerance
+physical unit:                     m/(s^2*N)
+;#quantity domain:                 field
+delta ap K f:                      0
+delta ap corrected:                Yes
+;#dB reference:                    1
+quantisation func:                 linear
+composition:                       sample
+implementation type:               COMPLEX_FLOAT32
+graph style:                       curve
+;
+channel definition:                10
+name str:                          +20r/-11r (-11r/
+;#ext name str:                    +20r/-11r (-11r/+20r) (calculated)
+abbreviation str:                  +2
+;#ext abbreviation str:            +20r/-11r
+title str:                         
+;#moniker:                         Analysis.Decoded
+physical channel nbr:              0
+;#group:                           12
+physical quantity:                 accelerance
+physical unit:                     m/(s^2*N)
+;#quantity domain:                 field
+delta ap K f:                      0
+delta ap corrected:                Yes
+;#dB reference:                    1
+quantisation func:                 linear
+composition:                       sample
+implementation type:               COMPLEX_FLOAT32
+graph style:                       curve
+;
+channel definition:                11
+name str:                          +20r/-12r (-12r/
+;#ext name str:                    +20r/-12r (-12r/+20r) (calculated)
+abbreviation str:                  +2
+;#ext abbreviation str:            +20r/-12r
+title str:                         
+;#moniker:                         Analysis.Decoded
+physical channel nbr:              0
+;#group:                           13
+physical quantity:                 accelerance
+physical unit:                     m/(s^2*N)
+;#quantity domain:                 field
+delta ap K f:                      0
+delta ap corrected:                Yes
+;#dB reference:                    1
+quantisation func:                 linear
+composition:                       sample
+implementation type:               COMPLEX_FLOAT32
+graph style:                       curve
+;
+channel definition:                12
+name str:                          +20r/-13r (-13r/
+;#ext name str:                    +20r/-13r (-13r/+20r) (calculated)
+abbreviation str:                  +2
+;#ext abbreviation str:            +20r/-13r
+title str:                         
+;#moniker:                         Analysis.Decoded
+physical channel nbr:              0
+;#group:                           14
+physical quantity:                 accelerance
+physical unit:                     m/(s^2*N)
+;#quantity domain:                 field
+delta ap K f:                      0
+delta ap corrected:                Yes
+;#dB reference:                    1
+quantisation func:                 linear
+composition:                       sample
+implementation type:               COMPLEX_FLOAT32
+graph style:                       curve
+;
+channel definition:                13
+name str:                          +20r/-14r (-14r/
+;#ext name str:                    +20r/-14r (-14r/+20r) (calculated)
+abbreviation str:                  +2
+;#ext abbreviation str:            +20r/-14r
+title str:                         
+;#moniker:                         Analysis.Decoded
+physical channel nbr:              0
+;#group:                           15
+physical quantity:                 accelerance
+physical unit:                     m/(s^2*N)
+;#quantity domain:                 field
+delta ap K f:                      0
+delta ap corrected:                Yes
+;#dB reference:                    1
+quantisation func:                 linear
+composition:                       sample
+implementation type:               COMPLEX_FLOAT32
+graph style:                       curve
+;
+channel definition:                14
+name str:                          +20r/-15r (-15r/
+;#ext name str:                    +20r/-15r (-15r/+20r) (calculated)
+abbreviation str:                  +2
+;#ext abbreviation str:            +20r/-15r
+title str:                         
+;#moniker:                         Analysis.Decoded
+physical channel nbr:              0
+;#group:                           16
+physical quantity:                 accelerance
+physical unit:                     m/(s^2*N)
+;#quantity domain:                 field
+delta ap K f:                      0
+delta ap corrected:                Yes
+;#dB reference:                    1
+quantisation func:                 linear
+composition:                       sample
+implementation type:               COMPLEX_FLOAT32
+graph style:                       curve
+;
+channel definition:                15
+name str:                          +20r/-16r (-16r/
+;#ext name str:                    +20r/-16r (-16r/+20r) (calculated)
+abbreviation str:                  +2
+;#ext abbreviation str:            +20r/-16r
+title str:                         
+;#moniker:                         Analysis.Decoded
+physical channel nbr:              0
+;#group:                           17
+physical quantity:                 accelerance
+physical unit:                     m/(s^2*N)
+;#quantity domain:                 field
+delta ap K f:                      0
+delta ap corrected:                Yes
+;#dB reference:                    1
+quantisation func:                 linear
+composition:                       sample
+implementation type:               COMPLEX_FLOAT32
+graph style:                       curve
+;
+channel definition:                16
+name str:                          +20r/-17r (-17r/
+;#ext name str:                    +20r/-17r (-17r/+20r) (calculated)
+abbreviation str:                  +2
+;#ext abbreviation str:            +20r/-17r
+title str:                         
+;#moniker:                         Analysis.Decoded
+physical channel nbr:              0
+;#group:                           18
+physical quantity:                 accelerance
+physical unit:                     m/(s^2*N)
+;#quantity domain:                 field
+delta ap K f:                      0
+delta ap corrected:                Yes
+;#dB reference:                    1
+quantisation func:                 linear
+composition:                       sample
+implementation type:               COMPLEX_FLOAT32
+graph style:                       curve
+;
+channel definition:                17
+name str:                          +20r/-18r (-18r/
+;#ext name str:                    +20r/-18r (-18r/+20r) (calculated)
+abbreviation str:                  +2
+;#ext abbreviation str:            +20r/-18r
+title str:                         
+;#moniker:                         Analysis.Decoded
+physical channel nbr:              0
+;#group:                           19
+physical quantity:                 accelerance
+physical unit:                     m/(s^2*N)
+;#quantity domain:                 field
+delta ap K f:                      0
+delta ap corrected:                Yes
+;#dB reference:                    1
+quantisation func:                 linear
+composition:                       sample
+implementation type:               COMPLEX_FLOAT32
+graph style:                       curve
+;
+channel definition:                18
+name str:                          +20r/-19r (-19r/
+;#ext name str:                    +20r/-19r (-19r/+20r) (calculated)
+abbreviation str:                  +2
+;#ext abbreviation str:            +20r/-19r
+title str:                         
+;#moniker:                         Analysis.Decoded
+physical channel nbr:              0
+;#group:                           20
+physical quantity:                 accelerance
+physical unit:                     m/(s^2*N)
+;#quantity domain:                 field
+delta ap K f:                      0
+delta ap corrected:                Yes
+;#dB reference:                    1
+quantisation func:                 linear
+composition:                       sample
+implementation type:               COMPLEX_FLOAT32
+graph style:                       curve
+;
+channel definition:                19
+name str:                          +20r/-20r (-20r/
+;#ext name str:                    +20r/-20r (-20r/+20r) (calculated)
+abbreviation str:                  +2
+;#ext abbreviation str:            +20r/-20r
+title str:                         
+;#moniker:                         Analysis.Decoded
+physical channel nbr:              0
+;#group:                           21
+physical quantity:                 accelerance
+physical unit:                     m/(s^2*N)
+;#quantity domain:                 field
+delta ap K f:                      0
+delta ap corrected:                Yes
+;#dB reference:                    1
+quantisation func:                 linear
+composition:                       sample
+implementation type:               COMPLEX_FLOAT32
+graph style:                       curve
+;
+channel definition:                20
+name str:                          +20r/-2r (-2r/+2
+;#ext name str:                    +20r/-2r (-2r/+20r) (calculated)
+abbreviation str:                  +2
+;#ext abbreviation str:            +20r/-2r
+title str:                         
+;#moniker:                         Analysis.Decoded
+physical channel nbr:              0
+;#group:                           3
+physical quantity:                 accelerance
+physical unit:                     m/(s^2*N)
+;#quantity domain:                 field
+delta ap K f:                      0
+delta ap corrected:                Yes
+;#dB reference:                    1
+quantisation func:                 linear
+composition:                       sample
+implementation type:               COMPLEX_FLOAT32
+graph style:                       curve
+;
+; extra fields
+;
+; comment
+comment 26134 :[Dataset]
+ImpactMeasurementInfo = string ( <ImpactMeasurementInfo><Version>1</Version><SamplingRate>2048</SamplingRate><BlockSize>1024</BlockSize></ImpactMeasurementInfo> )
+DOFCoordSys0 = string ( <CoordSysDescriptor Identifier="-1311067596"><Version>1</Version><Name>Cylindrical 1</Name><Type>Cylindrical</Type><DirDescriptors><DirDescriptor><MeasDir><Vec>1,0,0</Vec></MeasDir></DirDescriptor><DirDescriptor><MeasDir><Vec>0,1,0</Vec></MeasDir></DirDescriptor><DirDescriptor><MeasDir><Vec>0,0,1</Vec></MeasDir></DirDescriptor><DirDescriptor><MeasDir><Vec>-1,0,0</Vec></MeasDir></DirDescriptor><DirDescriptor><MeasDir><Vec>0,-1,0</Vec></MeasDir></DirDescriptor><DirDescriptor><MeasDir><Vec>0,0,-1</Vec></MeasDir></DirDescriptor></DirDescriptors></CoordSysDescriptor> )
+[Abscissa0]
+IsControlAxis = bool ( True )
+DefaultRepresentation.RangeStart = string ( Min )
+DefaultRepresentation.RangeEnd = string ( Max )
+DefaultRepresentation.ScaleMode = int32 ( 1 )
+[Channel0]
+SrcDOF = string ( +20r )
+RefDOF = string ( -1r )
+DOFRelation = string ( Slash )
+SrcName = string ( –¬Ω®µ„ )
+RefName = string ( –¬Ω®µ„ )
+SrcDOFCoordSysId = int32 ( -1311067596 )
+RefDOFCoordSysId = int32 ( -1311067596 )
+SrcDOFSensorRotation = string ( 0.0355896130204201, 0.75764662027359, 0.017807824537158, 0.651450574398041 )
+RefDOFSensorRotation = string ( 0.106858909130096, 0.715673506259918, 0.157953515648842, 0.671895265579224 )
+ImpactMeasurementChannelInfo = string ( <ImpactMeasurementChannelInfo><Version>1</Version><ExcitationWindowOn>false</ExcitationWindowOn><ResponseWindowOn>false</ResponseWindowOn><ExcitationWindowWidth>0.25</ExcitationWindowWidth><ResponseWindowDecayStartPoint>0.0498046875</ResponseWindowDecayStartPoint><ResponseWindowDBDecay>10</ResponseWindowDBDecay><AverageStrokes>3</AverageStrokes>RangeOfTrust<RangeOfTrust><Range Version="1" Minimum="20" Maximum="500" /></RangeOfTrust></ImpactMeasurementChannelInfo> )
+fMinValue = float ( 0.00481163897 )
+fMaxValue = float ( 33.9032784 )
+DataRangeComplex = string ( <DataRangeComplex><RealMin>-5.1945152282714844</RealMin><RealMax>2.2399032115936279</RealMax><ImagMin>-5.6086888313293457</ImagMin><ImagMax>6.6540842056274414</ImagMax></DataRangeComplex> )
+[Channel1]
+SrcDOF = string ( +20r )
+RefDOF = string ( -3r )
+DOFRelation = string ( Slash )
+SrcName = string ( –¬Ω®µ„ )
+RefName = string ( –¬Ω®µ„ )
+SrcDOFCoordSysId = int32 ( -1311067596 )
+RefDOFCoordSysId = int32 ( -1311067596 )
+SrcDOFSensorRotation = string ( 0.0355896130204201, 0.75764662027359, 0.017807824537158, 0.651450574398041 )
+RefDOFSensorRotation = string ( 0.341559201478958, 0.604067981243134, 0.40311199426651, 0.596606850624084 )
+ImpactMeasurementChannelInfo = string ( <ImpactMeasurementChannelInfo><Version>1</Version><ExcitationWindowOn>false</ExcitationWindowOn><ResponseWindowOn>false</ResponseWindowOn><ExcitationWindowWidth>0.25</ExcitationWindowWidth><ResponseWindowDecayStartPoint>0.0498046875</ResponseWindowDecayStartPoint><ResponseWindowDBDecay>10</ResponseWindowDBDecay><AverageStrokes>3</AverageStrokes>RangeOfTrust<RangeOfTrust><Range Version="1" Minimum="20" Maximum="500" /></RangeOfTrust></ImpactMeasurementChannelInfo> )
+fMinValue = float ( 0.0250580888 )
+fMaxValue = float ( 35.4362602 )
+DataRangeComplex = string ( <DataRangeComplex><RealMin>-3.8006649017333984</RealMin><RealMax>5.9756364822387695</RealMax><ImagMin>-8.1147165298461914</ImagMin><ImagMax>7.0695762634277344</ImagMax></DataRangeComplex> )
+[Channel2]
+SrcDOF = string ( +20r )
+RefDOF = string ( -4r )
+DOFRelation = string ( Slash )
+SrcName = string ( –¬Ω®µ„ )
+RefName = string ( –¬Ω®µ„ )
+SrcDOFCoordSysId = int32 ( -1311067596 )
+RefDOFCoordSysId = int32 ( -1311067596 )
+SrcDOFSensorRotation = string ( 0.0355896130204201, 0.75764662027359, 0.017807824537158, 0.651450574398041 )
+RefDOFSensorRotation = string ( 0.446295082569122, 0.481634527444839, 0.530550718307495, 0.536064088344574 )
+ImpactMeasurementChannelInfo = string ( <ImpactMeasurementChannelInfo><Version>1</Version><ExcitationWindowOn>false</ExcitationWindowOn><ResponseWindowOn>false</ResponseWindowOn><ExcitationWindowWidth>0.25</ExcitationWindowWidth><ResponseWindowDecayStartPoint>0.0498046875</ResponseWindowDecayStartPoint><ResponseWindowDBDecay>10</ResponseWindowDBDecay><AverageStrokes>3</AverageStrokes>RangeOfTrust<RangeOfTrust><Range Version="1" Minimum="20" Maximum="500" /></RangeOfTrust></ImpactMeasurementChannelInfo> )
+fMinValue = float ( 0.0198387969 )
+fMaxValue = float ( 26.8791847 )
+DataRangeComplex = string ( <DataRangeComplex><RealMin>-4.4524683952331543</RealMin><RealMax>4.9436178207397461</RealMax><ImagMin>-9.3833522796630859</ImagMin><ImagMax>6.25707483291626</ImagMax></DataRangeComplex> )
+[Channel3]
+SrcDOF = string ( +20r )
+RefDOF = string ( -5r )
+DOFRelation = string ( Slash )
+SrcName = string ( –¬Ω®µ„ )
+RefName = string ( –¬Ω®µ„ )
+SrcDOFCoordSysId = int32 ( -1311067596 )
+RefDOFCoordSysId = int32 ( -1311067596 )
+SrcDOFSensorRotation = string ( 0.0355896130204201, 0.75764662027359, 0.017807824537158, 0.651450574398041 )
+RefDOFSensorRotation = string ( 0.520446717739105, 0.436867982149124, 0.584702134132385, 0.443175882101059 )
+ImpactMeasurementChannelInfo = string ( <ImpactMeasurementChannelInfo><Version>1</Version><ExcitationWindowOn>false</ExcitationWindowOn><ResponseWindowOn>false</ResponseWindowOn><ExcitationWindowWidth>0.25</ExcitationWindowWidth><ResponseWindowDecayStartPoint>0.0498046875</ResponseWindowDecayStartPoint><ResponseWindowDBDecay>10</ResponseWindowDBDecay><AverageStrokes>3</AverageStrokes>RangeOfTrust<RangeOfTrust><Range Version="1" Minimum="20" Maximum="500" /></RangeOfTrust></ImpactMeasurementChannelInfo> )
+fMinValue = float ( 0.00438665552 )
+fMaxValue = float ( 30.0097485 )
+DataRangeComplex = string ( <DataRangeComplex><RealMin>-4.8793978691101074</RealMin><RealMax>4.7518877983093262</RealMax><ImagMin>-8.2184886932373047</ImagMin><ImagMax>9.3183612823486328</ImagMax></DataRangeComplex> )
+[Channel4]
+SrcDOF = string ( +20r )
+RefDOF = string ( -6r )
+DOFRelation = string ( Slash )
+SrcName = string ( –¬Ω®µ„ )
+RefName = string ( –¬Ω®µ„ )
+SrcDOFCoordSysId = int32 ( -1311067596 )
+RefDOFCoordSysId = int32 ( -1311067596 )
+SrcDOFSensorRotation = string ( 0.0355896130204201, 0.75764662027359, 0.017807824537158, 0.651450574398041 )
+RefDOFSensorRotation = string ( 0.58873587846756, 0.371706902980804, 0.624391198158264, 0.354061633348465 )
+ImpactMeasurementChannelInfo = string ( <ImpactMeasurementChannelInfo><Version>1</Version><ExcitationWindowOn>false</ExcitationWindowOn><ResponseWindowOn>false</ResponseWindowOn><ExcitationWindowWidth>0.25</ExcitationWindowWidth><ResponseWindowDecayStartPoint>0.0498046875</ResponseWindowDecayStartPoint><ResponseWindowDBDecay>10</ResponseWindowDBDecay><AverageStrokes>3</AverageStrokes>RangeOfTrust<RangeOfTrust><Range Version="1" Minimum="20" Maximum="500" /></RangeOfTrust></ImpactMeasurementChannelInfo> )
+fMinValue = float ( 0.000597429869 )
+fMaxValue = float ( 21.1482906 )
+DataRangeComplex = string ( <DataRangeComplex><RealMin>-4.2091202735900879</RealMin><RealMax>5.1660423278808594</RealMax><ImagMin>-5.9694380760192871</ImagMin><ImagMax>9.1230430603027344</ImagMax></DataRangeComplex> )
+[Channel5]
+SrcDOF = string ( +20r )
+RefDOF = string ( -7r )
+DOFRelation = string ( Slash )
+SrcName = string ( –¬Ω®µ„ )
+RefName = string ( –¬Ω®µ„ )
+SrcDOFCoordSysId = int32 ( -1311067596 )
+RefDOFCoordSysId = int32 ( -1311067596 )
+SrcDOFSensorRotation = string ( 0.0355896130204201, 0.75764662027359, 0.017807824537158, 0.651450574398041 )
+RefDOFSensorRotation = string ( 0.626547932624817, 0.301201492547989, 0.672349154949188, 0.254287004470825 )
+ImpactMeasurementChannelInfo = string ( <ImpactMeasurementChannelInfo><Version>1</Version><ExcitationWindowOn>false</ExcitationWindowOn><ResponseWindowOn>false</ResponseWindowOn><ExcitationWindowWidth>0.25</ExcitationWindowWidth><ResponseWindowDecayStartPoint>0.0498046875</ResponseWindowDecayStartPoint><ResponseWindowDBDecay>10</ResponseWindowDBDecay><AverageStrokes>3</AverageStrokes>RangeOfTrust<RangeOfTrust><Range Version="1" Minimum="20" Maximum="500" /></RangeOfTrust></ImpactMeasurementChannelInfo> )
+fMinValue = float ( 0.00276543689 )
+fMaxValue = float ( 29.6808472 )
+DataRangeComplex = string ( <DataRangeComplex><RealMin>-4.3896455764770508</RealMin><RealMax>3.9651215076446533</RealMax><ImagMin>-6.4893269538879395</ImagMin><ImagMax>7.5616946220397949</ImagMax></DataRangeComplex> )
+[Channel6]
+SrcDOF = string ( +20r )
+RefDOF = string ( -8r )
+DOFRelation = string ( Slash )
+SrcName = string ( –¬Ω®µ„ )
+RefName = string ( –¬Ω®µ„ )
+SrcDOFCoordSysId = int32 ( -1311067596 )
+RefDOFCoordSysId = int32 ( -1311067596 )
+SrcDOFSensorRotation = string ( 0.0355896130204201, 0.75764662027359, 0.017807824537158, 0.651450574398041 )
+RefDOFSensorRotation = string ( 0.648958444595337, 0.147230908274651, 0.722882091999054, 0.186057552695274 )
+ImpactMeasurementChannelInfo = string ( <ImpactMeasurementChannelInfo><Version>1</Version><ExcitationWindowOn>false</ExcitationWindowOn><ResponseWindowOn>false</ResponseWindowOn><ExcitationWindowWidth>0.25</ExcitationWindowWidth><ResponseWindowDecayStartPoint>0.0498046875</ResponseWindowDecayStartPoint><ResponseWindowDBDecay>10</ResponseWindowDBDecay><AverageStrokes>3</AverageStrokes>RangeOfTrust<RangeOfTrust><Range Version="1" Minimum="20" Maximum="500" /></RangeOfTrust></ImpactMeasurementChannelInfo> )
+fMinValue = float ( 0.0280900635 )
+fMaxValue = float ( 35.0539589 )
+DataRangeComplex = string ( <DataRangeComplex><RealMin>-4.8545031547546387</RealMin><RealMax>5.7663264274597168</RealMax><ImagMin>-7.6904745101928711</ImagMin><ImagMax>8.77816390991211</ImagMax></DataRangeComplex> )
+[Channel7]
+SrcDOF = string ( +20r )
+RefDOF = string ( -9r )
+DOFRelation = string ( Slash )
+SrcName = string ( –¬Ω®µ„ )
+RefName = string ( –¬Ω®µ„ )
+SrcDOFCoordSysId = int32 ( -1311067596 )
+RefDOFCoordSysId = int32 ( -1311067596 )
+SrcDOFSensorRotation = string ( 0.0355896130204201, 0.75764662027359, 0.017807824537158, 0.651450574398041 )
+RefDOFSensorRotation = string ( 0.728056669235229, 0.0723439082503319, 0.677114903926849, 0.0788364931941032 )
+ImpactMeasurementChannelInfo = string ( <ImpactMeasurementChannelInfo><Version>1</Version><ExcitationWindowOn>false</ExcitationWindowOn><ResponseWindowOn>false</ResponseWindowOn><ExcitationWindowWidth>0.25</ExcitationWindowWidth><ResponseWindowDecayStartPoint>0.0498046875</ResponseWindowDecayStartPoint><ResponseWindowDBDecay>10</ResponseWindowDBDecay><AverageStrokes>3</AverageStrokes>RangeOfTrust<RangeOfTrust><Range Version="1" Minimum="20" Maximum="500" /></RangeOfTrust></ImpactMeasurementChannelInfo> )
+fMinValue = float ( 0.0442239828 )
+fMaxValue = float ( 16.8506546 )
+DataRangeComplex = string ( <DataRangeComplex><RealMin>-3.9469521045684814</RealMin><RealMax>4.2804436683654785</RealMax><ImagMin>-7.1089906692504883</ImagMin><ImagMax>7.3735623359680176</ImagMax></DataRangeComplex> )
+[Channel8]
+SrcDOF = string ( +20r )
+RefDOF = string ( -10r )
+DOFRelation = string ( Slash )
+SrcName = string ( –¬Ω®µ„ )
+RefName = string ( –¬Ω®µ„ )
+SrcDOFCoordSysId = int32 ( -1311067596 )
+RefDOFCoordSysId = int32 ( -1311067596 )
+SrcDOFSensorRotation = string ( 0.0355896130204201, 0.75764662027359, 0.017807824537158, 0.651450574398041 )
+RefDOFSensorRotation = string ( 0.665387630462646, -0.104545392096043, 0.726343929767609, -0.136945262551308 )
+ImpactMeasurementChannelInfo = string ( <ImpactMeasurementChannelInfo><Version>1</Version><ExcitationWindowOn>false</ExcitationWindowOn><ResponseWindowOn>false</ResponseWindowOn><ExcitationWindowWidth>0.25</ExcitationWindowWidth><ResponseWindowDecayStartPoint>0.0498046875</ResponseWindowDecayStartPoint><ResponseWindowDBDecay>10</ResponseWindowDBDecay><AverageStrokes>3</AverageStrokes>RangeOfTrust<RangeOfTrust><Range Version="1" Minimum="20" Maximum="500" /></RangeOfTrust></ImpactMeasurementChannelInfo> )
+fMinValue = float ( 0.023281008 )
+fMaxValue = float ( 11.6578655 )
+DataRangeComplex = string ( <DataRangeComplex><RealMin>-3.9295639991760254</RealMin><RealMax>4.1529521942138672</RealMax><ImagMin>-7.0578389167785645</ImagMin><ImagMax>7.1613402366638184</ImagMax></DataRangeComplex> )
+[Channel9]
+SrcDOF = string ( +20r )
+RefDOF = string ( -11r )
+DOFRelation = string ( Slash )
+SrcName = string ( –¬Ω®µ„ )
+RefName = string ( –¬Ω®µ„ )
+SrcDOFCoordSysId = int32 ( -1311067596 )
+RefDOFCoordSysId = int32 ( -1311067596 )
+SrcDOFSensorRotation = string ( 0.0355896130204201, 0.75764662027359, 0.017807824537158, 0.651450574398041 )
+RefDOFSensorRotation = string ( 0.645322442054749, -0.221783399581909, 0.697347104549408, -0.219267219305038 )
+ImpactMeasurementChannelInfo = string ( <ImpactMeasurementChannelInfo><Version>1</Version><ExcitationWindowOn>false</ExcitationWindowOn><ResponseWindowOn>false</ResponseWindowOn><ExcitationWindowWidth>0.25</ExcitationWindowWidth><ResponseWindowDecayStartPoint>0.0498046875</ResponseWindowDecayStartPoint><ResponseWindowDBDecay>10</ResponseWindowDBDecay><AverageStrokes>3</AverageStrokes>RangeOfTrust<RangeOfTrust><Range Version="1" Minimum="20" Maximum="500" /></RangeOfTrust></ImpactMeasurementChannelInfo> )
+fMinValue = float ( 0.00499808136 )
+fMaxValue = float ( 18.5737362 )
+DataRangeComplex = string ( <DataRangeComplex><RealMin>-3.3255789279937744</RealMin><RealMax>4.2564678192138672</RealMax><ImagMin>-6.54389762878418</ImagMin><ImagMax>5.73385763168335</ImagMax></DataRangeComplex> )
+[Channel10]
+SrcDOF = string ( +20r )
+RefDOF = string ( -12r )
+DOFRelation = string ( Slash )
+SrcName = string ( –¬Ω®µ„ )
+RefName = string ( –¬Ω®µ„ )
+SrcDOFCoordSysId = int32 ( -1311067596 )
+RefDOFCoordSysId = int32 ( -1311067596 )
+SrcDOFSensorRotation = string ( 0.0355896130204201, 0.75764662027359, 0.017807824537158, 0.651450574398041 )
+RefDOFSensorRotation = string ( 0.70465475320816, -0.237305656075478, 0.575234711170197, -0.340958446264267 )
+ImpactMeasurementChannelInfo = string ( <ImpactMeasurementChannelInfo><Version>1</Version><ExcitationWindowOn>false</ExcitationWindowOn><ResponseWindowOn>false</ResponseWindowOn><ExcitationWindowWidth>0.25</ExcitationWindowWidth><ResponseWindowDecayStartPoint>0.0498046875</ResponseWindowDecayStartPoint><ResponseWindowDBDecay>10</ResponseWindowDBDecay><AverageStrokes>3</AverageStrokes>RangeOfTrust<RangeOfTrust><Range Version="1" Minimum="20" Maximum="500" /></RangeOfTrust></ImpactMeasurementChannelInfo> )
+fMinValue = float ( 0.0163392145 )
+fMaxValue = float ( 14.4541082 )
+DataRangeComplex = string ( <DataRangeComplex><RealMin>-4.706484317779541</RealMin><RealMax>4.916480541229248</RealMax><ImagMin>-9.08151912689209</ImagMin><ImagMax>7.2619748115539551</ImagMax></DataRangeComplex> )
+[Channel11]
+SrcDOF = string ( +20r )
+RefDOF = string ( -13r )
+DOFRelation = string ( Slash )
+SrcName = string ( –¬Ω®µ„ )
+RefName = string ( –¬Ω®µ„ )
+SrcDOFCoordSysId = int32 ( -1311067596 )
+RefDOFCoordSysId = int32 ( -1311067596 )
+SrcDOFSensorRotation = string ( 0.0355896130204201, 0.75764662027359, 0.017807824537158, 0.651450574398041 )
+RefDOFSensorRotation = string ( 0.65703421831131, -0.301875799894333, 0.562673032283783, -0.400719404220581 )
+ImpactMeasurementChannelInfo = string ( <ImpactMeasurementChannelInfo><Version>1</Version><ExcitationWindowOn>false</ExcitationWindowOn><ResponseWindowOn>false</ResponseWindowOn><ExcitationWindowWidth>0.25</ExcitationWindowWidth><ResponseWindowDecayStartPoint>0.0498046875</ResponseWindowDecayStartPoint><ResponseWindowDBDecay>10</ResponseWindowDBDecay><AverageStrokes>3</AverageStrokes>RangeOfTrust<RangeOfTrust><Range Version="1" Minimum="20" Maximum="500" /></RangeOfTrust></ImpactMeasurementChannelInfo> )
+fMinValue = float ( 0.00133041851 )
+fMaxValue = float ( 24.2305107 )
+DataRangeComplex = string ( <DataRangeComplex><RealMin>-4.6773858070373535</RealMin><RealMax>3.8426387310028076</RealMax><ImagMin>-7.637427806854248</ImagMin><ImagMax>6.5832853317260742</ImagMax></DataRangeComplex> )
+[Channel12]
+SrcDOF = string ( +20r )
+RefDOF = string ( -14r )
+DOFRelation = string ( Slash )
+SrcName = string ( –¬Ω®µ„ )
+RefName = string ( –¬Ω®µ„ )
+SrcDOFCoordSysId = int32 ( -1311067596 )
+RefDOFCoordSysId = int32 ( -1311067596 )
+SrcDOFSensorRotation = string ( 0.0355896130204201, 0.75764662027359, 0.017807824537158, 0.651450574398041 )
+RefDOFSensorRotation = string ( -0.496528208255768, 0.541365385055542, -0.484285950660706, 0.47523707151413 )
+ImpactMeasurementChannelInfo = string ( <ImpactMeasurementChannelInfo><Version>1</Version><ExcitationWindowOn>false</ExcitationWindowOn><ResponseWindowOn>false</ResponseWindowOn><ExcitationWindowWidth>0.25</ExcitationWindowWidth><ResponseWindowDecayStartPoint>0.0498046875</ResponseWindowDecayStartPoint><ResponseWindowDBDecay>10</ResponseWindowDBDecay><AverageStrokes>3</AverageStrokes>RangeOfTrust<RangeOfTrust><Range Version="1" Minimum="20" Maximum="500" /></RangeOfTrust></ImpactMeasurementChannelInfo> )
+fMinValue = float ( 0.00116789364 )
+fMaxValue = float ( 22.8643074 )
+DataRangeComplex = string ( <DataRangeComplex><RealMin>-4.3947715759277344</RealMin><RealMax>5.1251420974731445</RealMax><ImagMin>-6.1263508796691895</ImagMin><ImagMax>9.238555908203125</ImagMax></DataRangeComplex> )
+[Channel13]
+SrcDOF = string ( +20r )
+RefDOF = string ( -15r )
+DOFRelation = string ( Slash )
+SrcName = string ( –¬Ω®µ„ )
+RefName = string ( –¬Ω®µ„ )
+SrcDOFCoordSysId = int32 ( -1311067596 )
+RefDOFCoordSysId = int32 ( -1311067596 )
+SrcDOFSensorRotation = string ( 0.0355896130204201, 0.75764662027359, 0.017807824537158, 0.651450574398041 )
+RefDOFSensorRotation = string ( -0.401773929595947, 0.612913310527802, -0.393851339817047, 0.554793655872345 )
+ImpactMeasurementChannelInfo = string ( <ImpactMeasurementChannelInfo><Version>1</Version><ExcitationWindowOn>false</ExcitationWindowOn><ResponseWindowOn>false</ResponseWindowOn><ExcitationWindowWidth>0.25</ExcitationWindowWidth><ResponseWindowDecayStartPoint>0.0498046875</ResponseWindowDecayStartPoint><ResponseWindowDBDecay>10</ResponseWindowDBDecay><AverageStrokes>3</AverageStrokes>RangeOfTrust<RangeOfTrust><Range Version="1" Minimum="20" Maximum="500" /></RangeOfTrust></ImpactMeasurementChannelInfo> )
+fMinValue = float ( 0.00424141996 )
+fMaxValue = float ( 39.798481 )
+DataRangeComplex = string ( <DataRangeComplex><RealMin>-4.7330493927001953</RealMin><RealMax>4.7939038276672363</RealMax><ImagMin>-7.5588498115539551</ImagMin><ImagMax>7.35650110244751</ImagMax></DataRangeComplex> )
+[Channel14]
+SrcDOF = string ( +20r )
+RefDOF = string ( -16r )
+DOFRelation = string ( Slash )
+SrcName = string ( –¬Ω®µ„ )
+RefName = string ( –¬Ω®µ„ )
+SrcDOFCoordSysId = int32 ( -1311067596 )
+RefDOFCoordSysId = int32 ( -1311067596 )
+SrcDOFSensorRotation = string ( 0.0355896130204201, 0.75764662027359, 0.017807824537158, 0.651450574398041 )
+RefDOFSensorRotation = string ( -0.323592603206635, 0.647922217845917, -0.327484339475632, 0.606826603412628 )
+ImpactMeasurementChannelInfo = string ( <ImpactMeasurementChannelInfo><Version>1</Version><ExcitationWindowOn>false</ExcitationWindowOn><ResponseWindowOn>false</ResponseWindowOn><ExcitationWindowWidth>0.25</ExcitationWindowWidth><ResponseWindowDecayStartPoint>0.0498046875</ResponseWindowDecayStartPoint><ResponseWindowDBDecay>10</ResponseWindowDBDecay><AverageStrokes>3</AverageStrokes>RangeOfTrust<RangeOfTrust><Range Version="1" Minimum="20" Maximum="500" /></RangeOfTrust></ImpactMeasurementChannelInfo> )
+fMinValue = float ( 0.0235368237 )
+fMaxValue = float ( 26.581501 )
+DataRangeComplex = string ( <DataRangeComplex><RealMin>-4.7900381088256836</RealMin><RealMax>5.0653014183044434</RealMax><ImagMin>-8.3323583602905273</ImagMin><ImagMax>7.0524587631225586</ImagMax></DataRangeComplex> )
+[Channel15]
+SrcDOF = string ( +20r )
+RefDOF = string ( -17r )
+DOFRelation = string ( Slash )
+SrcName = string ( –¬Ω®µ„ )
+RefName = string ( –¬Ω®µ„ )
+SrcDOFCoordSysId = int32 ( -1311067596 )
+RefDOFCoordSysId = int32 ( -1311067596 )
+SrcDOFSensorRotation = string ( 0.0355896130204201, 0.75764662027359, 0.017807824537158, 0.651450574398041 )
+RefDOFSensorRotation = string ( -0.261985957622528, 0.683065414428711, -0.244140520691872, 0.636537849903107 )
+ImpactMeasurementChannelInfo = string ( <ImpactMeasurementChannelInfo><Version>1</Version><ExcitationWindowOn>false</ExcitationWindowOn><ResponseWindowOn>false</ResponseWindowOn><ExcitationWindowWidth>0.25</ExcitationWindowWidth><ResponseWindowDecayStartPoint>0.0498046875</ResponseWindowDecayStartPoint><ResponseWindowDBDecay>10</ResponseWindowDBDecay><AverageStrokes>3</AverageStrokes>RangeOfTrust<RangeOfTrust><Range Version="1" Minimum="20" Maximum="500" /></RangeOfTrust></ImpactMeasurementChannelInfo> )
+fMinValue = float ( 0.0286212973 )
+fMaxValue = float ( 39.8981781 )
+DataRangeComplex = string ( <DataRangeComplex><RealMin>-3.6029589176177979</RealMin><RealMax>5.8545026779174805</RealMax><ImagMin>-6.0312905311584473</ImagMin><ImagMax>8.3653717041015625</ImagMax></DataRangeComplex> )
+[Channel16]
+SrcDOF = string ( +20r )
+RefDOF = string ( -18r )
+DOFRelation = string ( Slash )
+SrcName = string ( –¬Ω®µ„ )
+RefName = string ( –¬Ω®µ„ )
+SrcDOFCoordSysId = int32 ( -1311067596 )
+RefDOFCoordSysId = int32 ( -1311067596 )
+SrcDOFSensorRotation = string ( 0.0355896130204201, 0.75764662027359, 0.017807824537158, 0.651450574398041 )
+RefDOFSensorRotation = string ( -0.144558697938919, 0.711006283760071, -0.152280628681183, 0.671106100082397 )
+ImpactMeasurementChannelInfo = string ( <ImpactMeasurementChannelInfo><Version>1</Version><ExcitationWindowOn>false</ExcitationWindowOn><ResponseWindowOn>false</ResponseWindowOn><ExcitationWindowWidth>0.25</ExcitationWindowWidth><ResponseWindowDecayStartPoint>0.0498046875</ResponseWindowDecayStartPoint><ResponseWindowDBDecay>10</ResponseWindowDBDecay><AverageStrokes>3</AverageStrokes>RangeOfTrust<RangeOfTrust><Range Version="1" Minimum="20" Maximum="500" /></RangeOfTrust></ImpactMeasurementChannelInfo> )
+fMinValue = float ( 0.00426442502 )
+fMaxValue = float ( 35.2169876 )
+DataRangeComplex = string ( <DataRangeComplex><RealMin>-4.752741813659668</RealMin><RealMax>2.876056432723999</RealMax><ImagMin>-4.3915386199951172</ImagMin><ImagMax>8.8177633285522461</ImagMax></DataRangeComplex> )
+[Channel17]
+SrcDOF = string ( +20r )
+RefDOF = string ( -19r )
+DOFRelation = string ( Slash )
+SrcName = string ( –¬Ω®µ„ )
+RefName = string ( –¬Ω®µ„ )
+SrcDOFCoordSysId = int32 ( -1311067596 )
+RefDOFCoordSysId = int32 ( -1311067596 )
+SrcDOFSensorRotation = string ( 0.0355896130204201, 0.75764662027359, 0.017807824537158, 0.651450574398041 )
+RefDOFSensorRotation = string ( -0.0914679989218712, 0.663058817386627, -0.0735085606575012, 0.739312529563904 )
+ImpactMeasurementChannelInfo = string ( <ImpactMeasurementChannelInfo><Version>1</Version><ExcitationWindowOn>false</ExcitationWindowOn><ResponseWindowOn>false</ResponseWindowOn><ExcitationWindowWidth>0.25</ExcitationWindowWidth><ResponseWindowDecayStartPoint>0.0498046875</ResponseWindowDecayStartPoint><ResponseWindowDBDecay>10</ResponseWindowDBDecay><AverageStrokes>3</AverageStrokes>RangeOfTrust<RangeOfTrust><Range Version="1" Minimum="20" Maximum="500" /></RangeOfTrust></ImpactMeasurementChannelInfo> )
+fMinValue = float ( 0.00299118948 )
+fMaxValue = float ( 36.613636 )
+DataRangeComplex = string ( <DataRangeComplex><RealMin>-3.7946100234985352</RealMin><RealMax>3.4792599678039551</RealMax><ImagMin>-6.5856161117553711</ImagMin><ImagMax>-0.00211692345328629</ImagMax></DataRangeComplex> )
+[Channel18]
+SrcDOF = string ( +20r )
+RefDOF = string ( -20r )
+DOFRelation = string ( Slash )
+SrcName = string ( –¬Ω®µ„ )
+RefName = string ( –¬Ω®µ„ )
+SrcDOFCoordSysId = int32 ( -1311067596 )
+RefDOFCoordSysId = int32 ( -1311067596 )
+SrcDOFSensorRotation = string ( 0.0355896130204201, 0.75764662027359, 0.017807824537158, 0.651450574398041 )
+RefDOFSensorRotation = string ( 0.0355896130204201, 0.75764662027359, 0.017807824537158, 0.651450574398041 )
+ImpactMeasurementChannelInfo = string ( <ImpactMeasurementChannelInfo><Version>1</Version><ExcitationWindowOn>false</ExcitationWindowOn><ResponseWindowOn>false</ResponseWindowOn><ExcitationWindowWidth>0.25</ExcitationWindowWidth><ResponseWindowDecayStartPoint>0.0498046875</ResponseWindowDecayStartPoint><ResponseWindowDBDecay>10</ResponseWindowDBDecay><AverageStrokes>3</AverageStrokes>RangeOfTrust<RangeOfTrust><Range Version="1" Minimum="20" Maximum="500" /></RangeOfTrust></ImpactMeasurementChannelInfo> )
+fMinValue = float ( 0.0259447973 )
+fMaxValue = float ( 40.1186867 )
+DataRangeComplex = string ( <DataRangeComplex><RealMin>-2.9314048290252686</RealMin><RealMax>5.2061262130737305</RealMax><ImagMin>-9.2989110946655273</ImagMin><ImagMax>0.54686123132705688</ImagMax></DataRangeComplex> )
+[Channel19]
+SrcDOF = string ( +20r )
+RefDOF = string ( -2r )
+DOFRelation = string ( Slash )
+SrcName = string ( –¬Ω®µ„ )
+RefName = string ( –¬Ω®µ„ )
+SrcDOFCoordSysId = int32 ( -1311067596 )
+RefDOFCoordSysId = int32 ( -1311067596 )
+SrcDOFSensorRotation = string ( 0.0355896130204201, 0.75764662027359, 0.017807824537158, 0.651450574398041 )
+RefDOFSensorRotation = string ( 0.26836895942688, 0.707778990268707, 0.231682285666466, 0.611023902893066 )
+ImpactMeasurementChannelInfo = string ( <ImpactMeasurementChannelInfo><Version>1</Version><ExcitationWindowOn>false</ExcitationWindowOn><ResponseWindowOn>false</ResponseWindowOn><ExcitationWindowWidth>0.25</ExcitationWindowWidth><ResponseWindowDecayStartPoint>0.0498046875</ResponseWindowDecayStartPoint><ResponseWindowDBDecay>10</ResponseWindowDBDecay><AverageStrokes>3</AverageStrokes>RangeOfTrust<RangeOfTrust><Range Version="1" Minimum="20" Maximum="500" /></RangeOfTrust></ImpactMeasurementChannelInfo> )
+fMinValue = float ( 0.00601799833 )
+fMaxValue = float ( 36.1555595 )
+DataRangeComplex = string ( <DataRangeComplex><RealMin>-4.3817267417907715</RealMin><RealMax>6.5123920440673828</RealMax><ImagMin>-2.7551939487457275</ImagMin><ImagMax>9.6695032119750977</ImagMax></DataRangeComplex> )
+																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																										data1 16000 :Áá»>eø’ÕÇ<“0=Oº>æ,Ø>ípüæö ∆=bæ'G>7¶¬ΩV_Ú=≤ø®=udL>î—∆=óN3=k>_É=◊†#>Jqz> ùΩæÛΩ˝8§;ºh¨>≥vêæ∫C>>Çæög>†ÜæíNÖΩ≥Lµ=ñ|F>h9>ôø¬°?º
+ªAı?ˇ?`¶(>¬É•=D9À>tøBÚVº˝ùÇΩ¬ÂPæ'Hq=êª±æŒuò=Èuæ|∆'>˛Y–ΩLç>Ôpﬁ=Éå_>"ΩÍ=|/‘=F!>›=ÈÈ?>~>PøeΩ9=sxª<Únî>;jêæSÒN>‹7éæ¢?.>FIöæÑé¥Ωa»¸=jFå=ø>$>â⁄˜æ »≤?õ!æÎh
+@L÷î>Èk>∑RΩ^0Ï>$eÁæÊÉ@æ‘˝Hæú±æƒÜØΩ_îﬂæ¢ºÿ<¯Ökæ2à…=ÑˇØΩzƒ >¨‚1>µ7_>ø∆a>L>>ﬁbp>ØÙ6>f∞t>,kt>ñ9Á;îz>Êuº77>Õ2éæÜì,>xG≈æ≠ã{=T’ƒæ‰tÊΩt¯<n§æóLr>∏Ω∆æÿ≥?CíÃæŸﬂ@⁄Í2æÏC:>º yæ5∞7?Hi”æZ‡æ‰gLΩ±!ø+f›ª‰ø˘Ö=5ÕæÎí¯=gmªΩB˘=.•T>Á÷>b‘«>1›÷=f≠√>Zp>ñúã>û¥<>ín0>™Xı=àMæ≥;#>U∑¬æßp⁄=°<!ø—Ùæ=‹›˜æ4âkΩ2hÇæ	8æ%K„>&@ æ«[ü?mÅ¿æ ;Î?'¿ræ«[CΩ≠Çnæcmf?…høÈ3–æSM>ªÿ1øÂB4>Vê4øﬂb*>r˛æGÿd>K˘!æAÏ=å/>ì€=∑∑Õ>Y¡(ºB€—>vÌ<Êdä>?∆>]})>©≥<Môïæbä>‘øöã>ÙV>ø–Çn>Àkø™éˆ∫ÿåæˇ=è‹?
+ø‘=µ?$qæ¯”¸?(	=pññºÜÇ¢ΩõÑ?z')ø¶âÆæí¥&>Z‹4øò9É>¸3Løáyx>Ô;ø¥=ö>flæÇ>-%>3Ó=7 >à≠?Ω!Æ‘>U[=ºë>“k>”=`wÇºﬂ™æ2¸≤>5M#ø€i>bïRø«£>`„øØ‚à<ÔGæ_aö=µ¯&?Y≤ø|§€?ÿùÑæ‡}@ë†É=	ÿ˝=AzUΩ¥8ô?hÏGøß@õæ‘>ôı?ø„ñ>9kmø›^•>Â0øápƒ>U†æYuS>∑h>°>"™’>8:QΩäj‚>
+œ”º-†>§≥>j\#=÷˛<<≤∆æs◊>rFøc¢•>”qpøuœ∆>… øûIΩ<≥çﬂΩ¨=≈ÍG?
+u1ø˚@f æÁ‹4@;®ΩFï> ÑÊΩ<≈∂?Zntø´˙ìæ>$´=ûxVø»“£>¥êéø±vﬂ>ucZø_t?˘‘æmîù>£,>⁄@>z˚Ù>2ÀΩú! ?µ-¥ºñp∏>Ï†%>}Óƒº*¿Æ=ıæØ?>tøƒÌ>Âéø¸µÛ>.ø|G¨<⁄!≥º⁄ ¢ΩIy?  VøMs@˛'ø⁄V@#ËÕæèÅ˙>OÊÖæ∑ﬂ?ïﬁ°øËe†æ!Ω“±øA©Æ>[a±ø ?Å√ãøe“8? 8	ø◊w˝>‘íh>†ë>™n?Hì<*?é„}<Ö©‰>ô&T>C ûΩ˜_Å>ÃFø◊’3?	?öøﬁ¢4?x∂±ø[a?¿Mø°í€πÌl=
+ÛúæŸ†?)ˇçøá>@ëøœ˚}@iÅø˜û7?eAøb@⁄_Úø±JÙæ}zæ*´ø§.«>Â∆Âø¨~?J´¥ø‰ì?Pıø¿¢[?±Ê>Ë:>ì{?sÙ=ä}r?{AÎ=KD.?≤´>-©ÎªŒ?»ICøéAå?Êìƒø⁄Õñ?wqÍø¶´h?É,ÜølóÉΩh}©<p2AøCÀ?»‹Ÿø2¨^@⁄j¿fXê@±Œ
+¿ê_?«ïøìZ@óˇF¿†åäø(ùæ[)¿O˝Q?=¿ÿ∂Ô?`x◊øT@…–æÙ≤?çëü?ooÛ>∑@ ¿	æâ˛?ObΩ[“¬?ó)∞>Õk3?≠ÃÖ?£ø	ıÌ?‰îÊø˝◊	@p$#¿”∑‹?≤Èﬁø±ÅA;÷ø7a™ø0´…?Lê9¿ŒÎZ@›±k¿nÃá@®}¿74Ó>ÄÛ¿‰∏?<dó¿≠≤ªøÈm/?ΩP¿î3@Q¿ÿ¶Ñ@»sØøûÈo@∏“`=]‡⁄?!˛?ë6éø	8?@ﬂË-¿ä%C@a$ ¿¯Ÿ'@√ØªøzË?z=˙õ>ób@j~Æø∑È|@Ò⁄+¿;aÉ@+È#¿*ê∑?ƒ®Œø1çcø◊ÕÙ>ë&Ü¿©*@Á∆™¿ˆ§I@¶*¨¿BG•æns¿+ï¿øaz≥¿µæ=Ç?/4Ê>™°Ä@5‚•?ªªº@Xú»?KV¢@«wt?|€@∞Ó|ΩÎô¿°( ø◊†¿Ú›Ãæ∏π†¿oä>˚∂m¿àaE?
+@ûø‹f—? Ö@v*‰?që§@=†v?òoø@å•/ø&lG@Ti…ø‚I\æùÆ˘ø|áå¿:oOøx–¿π®=g2Ÿ¿^"®øU0¿ü´K¿XÀI¿Éåæ»§Ç>.Ó›?ÌöÒ?©≠`@~B@:û`@%Å/@ú,Ê?I¢°?”qõø'ÙÜøwó9¿π¥¿æœ4¿nÖ#¿ÄÿÔøπ!¸ø˚cΩª‹ø‘@uıã?nÓh@Å.(@püM@9KL@,ÅE?_Ëﬂ?DÈ¿øQ9Ω∑A¿˜–¿›–;¿‡˙i¿î¿ Tz¿BÌ¿jPÊø&Ó,¿Ë”ø\!ø⁄2¡=82ô?J÷Q?fV@@_ß¶?ŸπM@t«ù?ê‰?˛;?1Æwøoàôæø#¿ñãkø∂B#¿0.~ø¢›øi4AøÈx>=Èb}æl<Ì?ËC?~™O@â ç?›É/@nõæ?”±? R?ﬁ¿øjæ=R&¿Ø˘üøé‘¿»É·øÂˇ·øÏ‰ø;ò¿mcøÛü¿…RÜø¥å`øÆ±>–#0?øf˘>œg@Qy%?y4@…q?5¶÷?Èé>êπ7ø9ΩjΩêQ
+¿jî∂æë√
+¿‘¨œæG1∑ø∑ñæ›D)><ûæ¿⁄?Nç>h3@√t?lå
+@ÇX?0i>7}˙>ªﬁ¬ø=Ó?>8¿íZMøQ\¬økÄøŸÛWøF„gø¿ﬂæwâ⁄ø#*HøÀüäøG>ÕEû>W9∆>„8 @$∫>ﬂµ%@Ãâñ>m—?TNæ=ãæøˆÙ="˙ø6ü…ΩLM˚øΩŒæ¯ÉüøæΩœÅ>˚æ≈÷?≤>‡(#@B'_>ôç‡?zê?íO2æ±¡>oÆ…ø˙ƒÇ>BÒøvøáZø`¢.øâÕ=ΩÃÇ	ø¿‚ÒDækÕØø±2'øC¶øAvè>†™ º√>±†‹?$d>ı@?$∂=Âﬂ’??AΩ‰Ûæh˘í=¬èÚøÏ–á=	ÃÛøc÷<Œîø1bv<Âß>^NæN€‹?ÿ^<%û@“=¥Ω∫?à≥‡>´¯æ—‰ª>∆ó÷ø3„¢>ı◊ødoˆæé ìæQ†øÑ?'?∂ÙŒæq6¿[ΩdßäøÏóø'§«øLKÀ>1¶æ© ﬂ>ﬂ¬?mö>;ƒ!@çOºΩHø‰?CæÂó◊æf¡=òü˙ø¥ô`>x¸øk–0>ﬂ@íøÀæ=c‡œ>Â·4æ‚Ô?9
+æ
+@vOÒΩÀù?Rl√>9QøÚ®⁄>–ÎøG >BM√øiÆ’æOvz>∏ø!˘®?œã‘æ{¿íl£=ãñKøx‰øáhÛø—¯?-/ø´Ö?ÃÒÆ?K&◊=∑I+@«Êúæ‰E @BÓ√æﬁW»æ‚ΩÁ=ïb	¿ÊÛ’>	[
+¿ûß∑>∏ôøtm3>A˘?KqæÖ¢@°û´ærù'@@•õæ∆÷Ç?=¬¿>‹íõø=?∑‚¿’w?kí≤ø’∂≈æjM?™û)øb4@ªKøßá¿,G>yÔæ,4ø]¿ç2f?—êíøíWV?b¬ù?Ææ=G1>@˘‘"ø∑>@%34øÆƒ¡æ‚à>˘°¿£??ﬁ@!¿uk+?DH¨øX?õ>§‡&?@≤æ9f!@¸Ñ/øF;@ìgø[P?Äˇ›>ß‡ﬁøc^a?T¥¿dÍ:?˛+¢øî:»æpUπ?sÊmøØ´4@9√fø>˙¿A∞>»[JΩŒxzø
+…B¿N»?T,„øtÃ∂?[å?ë˛=˘$]@X°¢ø√˚:@ˆ£≠øùÈ¿æ≤J3>iÑC¿ü∂?p≥F¿z®?TıÕøi™?ÿ‡\?∫∏øô≥H@w≥ø∆v[@à,òøa?úò?#Ò¿‚∆?Ãi=¿oÏò?±gèøÓ0ÌæE®@5`≈ø≈˝s@1I‘ø@ˇ¿ı«?p›>Œﬂø>s¿≥zK@]:¿£K:@dt?çEâ>¬iÄ@ï¢0¿˙Ûd@∆ç<¿âºæf6Å>Úm¿…D@Bu¿ﬂ…:@Í*¸økê†?,¸å?–/òøÀÌu@ÔH¿wªÅ@∆Ë'¿≤∆¶>ôwç?ßS¿ÇO@·ñf¿µã@ßUvøˇö6ø∞≈I@ eE¿∑±õ@+”`¿Â2%¿˚õí?‡M<◊ƒf¿C‹+¿cÂ◊@˛ñªøı9»@JÊ?Ç0?Íg6@£ø¿æB@ë®œ¿GÂÄæ`º>œç¿ÓÊ÷@Õù/¿h”@ã7Ãø◊è:@b ?O"¿$±!@Ç.ﬂ¿¨‰C@=Aª¿cÙ7?à@PØ
+¿æ≠·@~<¿ÍØ¢@[∞ëøó›¨ø@©ä—¿Â≥o@cˇÒ¿X	¿à@π¯2¿0…l¿ú.@f(“@Kèj@4p≈@w'’?l⁄H?sË¿r»∂¿q¶F¿≠‘À¿¥3XΩJò}>R‹L@Ï“@≈N;@µ›’@€Ûh?—SG@Ä'¿ø&¶¿Q[¿c∆ÿ¿qÔøß∫¿B "@¥û@G:h@–ﬂ@Çã?z˝•@µ˙
+¿Sé≠øö;7¿à·Œ¿/]¿ÒÄÈ¿ï’¯æ«–@n∞Y¿rÅøÄxe@ZıA@◊ì@‡?6@;ÃÙ?$º>ˇ9¿¬ù ¿aÖ¿ö6¿pwﬁΩÑª=e˘à@ÆC;@¸‰Ñ@0◊E@hª∆?‰S«?II˜ø$%çø≈Sê¿5»<¿º4¿∏+¿Ωõ8@∏o?OÃï@ÃéM@ƒLÓ?Á@%@[m¿wá-øfŒi¿¢≥D¿#ú;¿`S¿S∏æâÇq?ÌFC¿b≈ÉøÂ.@uº¿?8}@D≥Ø?ëà˜?óa	>@Æ¿cìø˘a¿Ùÿ•ø.√KæıéT=„f@ê”®?Lc@}∫?¯Á®?µàO?YÔ‹ø∑¸ææòq¿…í£ø¿Ÿó§øÚ-@ê√«>lx@˙°∆?‚†?Ωu¥?kÀ¿¿∞æ®0¿4Õø>·øK0–øà≠;ø˚
+?ÕÀ.¿Ô√)ø*‹˝?÷ i?wY@“ﬁB?Î–¸?ÿÎ:≠#ŒøØÿøMuA¿„Ø$ø4’çæyûL=äåD@“ú%?ŒyB@óÆ@?&Œã?z˜>4œ øΩòdæ› L¿’Âø≥≥–ø•ÿ7ø©¸%@Ç§
+>ÉgK@õ¡`?ú—)?9q?qß¿1Ç5æ€π˙øoÑø[§8øö.Åø¯·àø~ˇ∫>f# ¿/ãÙæGÔ≥?aê(?˘ıA@` Î>f^@“Ω˛|ôøƒG æ`/¿˛}úæ.∂æt3Ç=mû0@<çô>°c/@ñπƒ>˚Òo?Ùü>¢≈≈ø÷‰áΩ1˚5¿Ë“xæCoùøWËæÂP%@A∏ﬂºëü+@Ó&?¢â3>úÈ>?ä¿¿™äΩde©ø;Lø©˜Ê=>¢Hø˜Øø˙2™>‹q¿√ ææ0l?]o?—3@»$ê>üC@+•ZæŸÈeø∂=ñæ~'¿n[¶Ω7⁄‰æBë∫=≈©'@t?ê=v›&@ß>zV?P9S>® ÃøWCw=£H+¿L∂ºŸnø$£æëc*@6%/æg5@(≈Õ>æXâæÜª.?Ü¿6õŒ<Á-HøUÖ7ø)˝U?&ﬁ=ø6O’ø–€∑>∂¿Ü≤ùæ˛»Ô>q™?ß?*@5…!>m@ÿ(∏æø}(ø"8ÜæW(¿zKÒ=ÁOø#Ω>∂±'@âÄæ¿'@ùΩ—±E?‚¿>Æ÷›ødM>Øƒ)¿◊p(>≤€.øbÇæS5@Æ¨æÅû@M’§>‡é8øùO7?ÒÍ¿G“˘=˜ëãæi6<ø°
+√?¡ïRøﬁ›ˇø.3·>‘Ÿ¿çjçæ¡Ç]º…0?ù&@›æZ= º2@ñøö
+‰æıƒíæde3¿–:∂>iÈ8øÄ7g>8ò0@w£Ωæó0@Ü]ßæã2<?zS{=°%˝øü‰À>=1¿»Õ¬>√IËæ'Uxæ'NG@Bñø◊Æ‚?õπô>˘)ûø_l\?W"¿Ø(w>/ É>Ü˘Yø¥T@‚,Ñø"À¿™?8o˝ø‡ëèæµøvx?˝¯%@õsΩ7R@EOzøv€næˆD√æìH¿‡§9?ÆXrøB»>*ÎC@◊ˇ<øyRC@πP4øÌ8?ÿºyo¿Ç<?îäB¿æ6?¢Væyóæπ®b@{ŸvøÓî¬?Ë>∞>zˆÔø\Ãò?M≤,¿∑÷”>:’\?OèøˇÓB@CÚ∏øùT;¿l¨f?Ú†Ìøj™≤æ§i•øÂ∑Õ?„)@„bæ7k~@æ‚øº¢ªXUø…€j¿'K∑?Òü°øœ£=?z‘c@,∏ø€˙b@»–¥øÑq7?
+é–Ωs<¿°µ?%`¿F⁄´?Ûq´=¡Ûæ]ÁÑ@7Ñ‹øMü?ò?Œ,¿uY˜?f:¿@›4?QÃ?Õ◊ÿøök@Ù~¿ü÷g¿’,ƒ?¬pﬁø—Œøı[¿ÚΩG@0@ú;øÍó@⁄Òc¿ˇ›9>˙ëøÑ·à¿–≥A@"YÕøc[»?y É@”œ@¿πÉ@:S?¿u·3?éÄæÊe¿f >@}Å¿F1@Úœ>
+Ωxø©gô@ä2Z¿%#x?ﬁ§s?≥Ωd¿Él@_¥E¿f§?Ùn@ÂkB¿”Æú@~*É¿7å¿œ
+@@‡TÒø√HäøÒõørÉ…@˘)'@ZLèø∆Ûl@©È¿≤
+læl’
+¿¢±V¿ê5À@ˆìèøT@›íI@5º»¿àªG@øù«¿Œ†?9LÓæ∫g.¿≤{…@†pL¿èÂ∑@,l>wÿ¿~q@Y⁄¿óTñ?>Ü˙?*¿,¿JóÏ@∑(,¿≥‡@;$‰? ¸∫¿Bi|@ÖÎı¿Ÿ«n¿M0√@Ñ'/¿"ôø÷g@¯9‚@X#Á?3æ¶øÜZ¸øÓ~¡K¯øt¿·úﬁ?µ#Ë@ËÆÃ??"r@≈[Ùø⁄|„¿Ú1ıø—Ÿ·¿IkN>-—æÅÉ@bË@÷∞?Ñ—@MC√øp+'¿ö;∫ø‚Ò¿TÄ.@π8@+I7@êÿA≈øíø\@™A¿^Ω“¿p|¨øÌ¡˙iP?çÎﬂ@rrF¿˛`ø¢≈Æ@˚gp@‘ìƒ?ÀIøíDÖ¿≥Úå¿! ¿Ù≥Éø≥%s@∆Àx@aî.@¬¸?›ö|¿©Ëp¿˙}{¿’±n¿∑ı2>÷%æ9wè@+Ôz@•oN@W'a@0|¿ÈÒªø√∂V¿3zÄ¿ù√Z@?=ú?òªü@=‰ë@/ÑVø≤wó?‰⁄r¿@p¿—:¿é¿ÚT$@ı(z@ÌCD¿Ã˘væ´*û@ídÌ?nìŸ?¨ÿø÷f¿]3¿fk¿~øæà3Y@x˜?.ï#@ÿee?4e¿P¥Èø„ãc¿)»ÁøEªå>ù?ùΩu›Ñ@÷∆¯?õ6@Ãﬁ‡?0¿tÏ8ø¡|0¿˙ ¿B§V@c?ã@ÖE@g|ùøåj'?®≠M¿z	¿°‚ıø|,¿”ˇ?≠@7A¿+;jΩ
+èâ@¨„Å?Ûãı?W‡æN
+9¿Dé¢ø¿ìLñΩEÇ5@‚Åá?≠c@ä.…>2_E¿›πsøÃøC¿+⁄søºÙπ>$âéΩúk@a&Ö?˛µ@Å‹x?˝O¿I—Øæø\¿vBõøêZP@MXÉ>P|a@úÍ≥?6¬œøÕ†¯>;  ¿Ô∫øqQWøÍ––ø†?|ï≠?éP@¿THm=ÿ't@˘?´	@›ªÁæ´y¿¢.Pø:_	¿±Ò◊=‡@ˆO?±@û∏‡=∂Ë0¿Ÿo˝æY>/¿ÇbøBH·>ÔΩΩh¨W@¶≤?ı√˙?ë{?ÿA¿Ÿ‹Ωò?Ωøi
+WøA’N@£πÑ=H≥6@=ñt?Æµ˚ø‡)Î>8&Ùø∏‹îøÿe=£∏©ø?´«Ç?f A¿~ß>b∏]@œæ>óË@5	øñd˙ø©]ø"‘¿¶;Ç>x@ønº>o
+@à√Ωy»&¿wªLæk%¿W√iæ‘G?·Xæ⁄*O@ÿ∫|>∂¡ÿ?˚∂>‰™¿œ´=ÿùÖøÀı+øÖ_R@¿˚∞Ω`û@ÌÎ<?◊ù¿-T?‚j≥øãÖøQT?ÏÖüø¢=Ÿd?QLE¿'Bo>÷M@Òpq>{-@»e*ø:‘øl ·æZe¿ç+ÿ>„ @ªæF>∫f@÷yîæëE%¿ÈÙ2=CÖ#¿Ayﬁπëw?∏Fæ},P@#úºè¥¿?º—W>KÎ¿≠í>Ô⁄-øDøV[@∏Twæä·Ë?⁄Ù'?¯(¿õ≠?EpøFŸÉø1G∆?ÙOßø^Ÿøzf?§—J¿èë®>¸@@fœ>óF@€_eøıµø(
+¿æïÌ&¿Z,(?z˜?.cM=Ò"@ùø[⁄+¿Á≤ú>Ã*¿†px>™∆5?Tëæ”ñZ@â†æ≥4Ø?,.‹=A1¿áG?Ä≈Ææäö'ø6ìi@ L·æˆ∂´?∏/?@¿:ÓG? ÇÙæT‰çøÇx@ÊÀøø•“éøõπÑ?vâR¿˙4Ë>0Ä5@Ÿ∑Â=¡¸e@i•ø&öø‚Õºæ™2@¿ÅœÑ?ÕÙı?…¥ÕΩÿÅ+@~`øI,;¿~∂*?ñ|9¿xÊ?_Y?‰∆⁄æı´o@ã”:øã⁄°?íË·<mÒJ¿êjv?Á£;g@Lø/V@∂>ø7S?Lv[?Ry\¿w»à?¥µô<|ßøõbC@¢/Ôø•çÊø„Æ?{ò\¿XV$?*,@áºÙ=ﬁüá@c√ ¿4™Äø¢{‡æ√
+d¿i‡›?bè¸?¡˚õæŒF@rªΩøß1T¿hﬁ¢?˜ÛR¿ƒ¿í?/É?cD.ø3ôà@°˚∏ø+¶ñ?ˇÅΩ3po¿5ñÿ?FG≈>ÙyèøCÛé@"9£øÉj>$£?0≥~¿ÙS ?˜®?„ˆ⁄øp;{@Kı#¿À6(¿∑‡@Wêg¿∏*y?¶¸#@ˇ–X>2û@†t]¿BSøÓ`&ø±Ü¿˚SI@î˚@TÇ'øÏÉf@lŒ+¿Å]r¿#@ö√r¿±ì@µcö?7YñøœSù@ùœ7¿∂yã?◊?£Ω¯°å¿„äI@B±B?äËø≤˙†@Lõ¿®]—æ0ı@kÇë¿(%@Aäï?ùµ#¿≈›ô@5–{¿M"b¿é]@«˚g¿ï ?º"@Ê>µõ@fùÀ¿⁄Oø'jëøV˘Ç¿ﬁ‡¿@Çæˇ?Ï¶ßøY„\@◊v£¿ƒÛh¿Æ£ö@ÿ¬n¿s¬í@√’ã?∞È¿Kdõ@1∫π¿¿ù~?À\ÉΩ‘{à¿ √@∑1?ymO¿Û¢@óê¿=@øXåá@∫í¿yfë@mã£?B6â¿Îsú@+Ó”¿ÜQj¿oÕ@€ü:¿n>@∑°:@
+∑G?H'â?6"¡ﬁÅøø&’ø÷ùæ¸˜ACÆî?+˛øx—g>^ˆ¿*˝æ9ÙÎ@Bø≥)Â@íŒÇæÇØE¿Õ,ç?ÁM¡î•}?¨∏ä=vuÕæ —A¨QüøÔTñ¿ç‚@x!‹¿(@B_œ@9®¿˜l—@6%Pø	+ƒ¿≤˝ ?W»¡û@ªI∂A[M¿0‹€?ƒ]@dM	?‘øa¿nR„¿ß¿˜Ùúøßé@ºﬁ@ı")> ¿¬ø∫*s¿Y&ª¿·?\@±‚≤@ôvH@Œ›±@^^Ëøf¿u¿∂˚·¿q≥ó?ÄAÁ=•∏ç@≥0‡@1me¿9’^¿√Öø=¯´¿Z¨@ø\ü@	™E?<&†@J6]¿ÏSö¿º„¿˝”‚¿ıôó@P˘Ô@Ω	¿Ò<è?‚qg@˜!>ÏÄ¿dw¿ª#¿kÕø8P•@pk@äÑ=76ZøÌÔç¿÷!G¿l÷Å@©Ô:@≠¿t@"¨>@Àï ¿…ììøÖõñ¿f’r¿ûŸ´?ÌU¯;*§@ó=l@@ûx¿ÜÁø˙Ωø[ı@¿Xª@â‚(@±Äl?Ö8@/«j¿G∫9¿+c¿¨ÜÑ¿Ç©@»JÖ@h.¿Ø´Z?]ái@K=ƒΩêíR¿—ö¿~æ!¿œª`æø_ì@r˙?§{{>üóøhÏÄ¿VÆ’ø±i@¬?:¯]@3 Ã?£˘Èø⁄øoá¿∆ï¿Úπ?E‚Ω^6ë@'Î˙?Eëf¿Znø£∑lø?“Âøp‰¨@†£±?oåÅ>zÊÍ?ÃH¿pUˆø5{∞ø'r-¿ƒ?ê@wp@õ§+¿¢‰D?m(m@‘pÉæ›V#¿ˆ∏øzÀ!¿Õ ;zTÅ@ﬁã?¥\„>b˛ÃæúÁh¿´?oøñ´N@ﬁtN?˚ÏE@¨Ìb??◊ø´úæe¢p¿(Õíøt∆?†÷cæ∏œ|@¢ç?3W¿{ƒÙæ.Û§æ#.ùøÛù@ÜA?	⁄ædm±?‡©$¿ÀVºøgzÀæØ∂¿0;k@ÄíÃ?≤/<¿8zE?ît@Mc…æ¶∆˙ø2áøèE&¿€»4>⁄Òh@‹v?“È!?Œ?ªæz!Z¿Íˇæ‰p=@VË…>!6@Ú>4ëŒø!<ækÅ[¿ùö!øÀ¥’?æÆæâπa@ä ?OvO¿€KæY>ô¥wøEsí@ºŒ>√äÉø”0õ?ìU¿é°ø•Á>´ ÎøTÕ=@◊ò?ßL¿‡.T?Òπ~@ÒΩ	ø˙;Ωøó√^øÒ¶/¿µ>âÜX@æFî>I√R?_˘«æ U¿ñ6ætº4@™Ñ◊=éG.@(<>C–ø=·;˙+P¿©%èæ{‰È?∏o˜æUO@7˚•>ı˘N¿DL±<˜∞3?=`ø“¸â@Bå>>ÛŒ øöäò?¶m◊ø„ïøórõ?Â„øÊD@G¡?õ^¿‚o?QÌÜ@â8øuEàøv<Nøµì>¿u·?\îO@ Ÿ-=ybÑ?˙æÊÓX¿Cw˚=Êv3@_öæuû-@¢(äΩ€ø©˝>hM¿c‹g<+@d◊+øŒ{E@01∆=_ZU¿±ìz>¨ò?7qhøÂ…É@©0!=Ï ¿M”§?ø•øÛ3ïø%~¯?ÈUÓøÍ‚?pu?≠aq¿¬Qé?s6ë@Ü·yø<.øGWWøh*T¿j™c?V˜L@Ø¿Eæ˛n§?Cƒø°≤e¿˛æˆ>Ç;9@J¡›æ¿‡3@∑ÊØæ◊]øb¥>éªR¿	â•>Wé@oëqøáA@Gb‰Ωn⁄b¿ù˛?Ú˛⁄?- âøTÇ~@“àΩk.¿••¡?‹8hø◊Fûø∏{+@Œ]¿Û’ò?‰Åá?M∂É¿EZ≤?«Õû@√≥∞øΩ:óæ8ø˛ƒq¿UX≤?ﬁP@ç
+ÚæØÚÀ?¯pfø®¯{¿àñÄ?7(F@änSøÓYA@]≠8ø¯•¿Æƒ)?&S`¿HM;?y*@Æ’ØøgˆA@âj≥æ3&x¿ °s?∏@˘º∂ø˚Ów@k≠ægmX¿¿D˜?ÛÁ˝æ6J¥ø◊]@tF ¿Ój? \¨?>‰è¿=yÔ?£Ø@9¿ˇÕ=îB¨øÚáã¿Oõ@˜X@Û*aø '˚?÷z¥ø≠xç¿ﬁ2Ò?¶lY@7≠ªøBêU@„´øˇ™¿˜?õ?—©u¿æ˘∞?¯E@:+¿‰2G@g¨0ø][ä¿‚J÷?B{?@`â¿Fs@sSæ.àÉ¿“,@IRΩ≤ì‡øó—â@1zQ¿∞€Ω_Æ˙?èÛô¿ò/.@j8ø@∑¨W¿.‹>û¿$ú¿¥«z@«∞_@ <»øÎ5@`¥¿Xõ¿ë0`@Àrj@∞È'¿bƒh@ÿ6¿(≈2¿¥)@œ^Ö¿*ù#@!Z@YT]¿⁄WL@»ã†ø$uó¿ı]@@ òg@ﬁ™a¿Ü3p@-}ævò¿ß†Ñ@Ëp∏>¨Ï¿HY°@éñ¿√v6øòWL@8Öí¿òÒÉ@˜ﬁµ@OA≥¿¨ÊÑ> ÂT¿hå¿Öºÿ@ü,O@rZ,¿U˛?ﬂyÉ¿ÆMâ¿!∏…@›ëN@ˇäì¿!R@xç¿Kr¿¨¨Ç@&u¿éì@™»6@ª}∑¿Ù∑=@‰+¿ì≥ä¿Cﬂ©@”"W@ì»¿¿µo@õÖæf*è¿a‘@‹Æ>äÌi¿lõ@1†‰¿:/ øH≠@}9¿Î;®@…aC@Ï€Ú¿9õ©ø;9é¿ÔÁWøA¢ÈÏ?ák¿oÑ2æâµ¿“†>ø\sA}Ñ2?C(Ã¿AΩa?…+«¿Ë_æ√{∑@,ËÆø	ëœ@ÊC
+æœeÙ¿6øË? 5=¿ÏC¡øuhÎ@÷bœ>WQ¡ÿq@Ø~}æˇÀ∆øèA˙=}ø0›ò¿∫˘@[T¡Ÿ	@™PÓ@µ‰Äøû∆ç@^Ãæ:fÕ¿ä,P¿A]l¿˛®\@âV˙@5s>i™G¿”Ì5¿–éô¿.µ`@XÁ@ú8¿™Ï´¿"•¿[´¿´á*@Úló@^÷Ÿ?ø€∞@Q#f¿9Å»¿ò¢?“C¿à˚Ú?‘•ƒ@ÔyT¿VW‚¿P)y@≈ËÅæo∏˙?Ó°Ô@%`+¿˜‹Ñ¿	ôøO¯¿ˇÆ@≤…@íøf5K@Ø∫VøÖëÉ¿Qp¿ß¿wò@Ìû@.zVæù¿îen¿ÎîG¿∏Hî@à¨Ö@ª”[¿≤K`¿P¿=/e¿0I[@ﬁ6,@ﬂ@$@%;\@%≠ï¿â,{¿>$>€ÃøÂ<6@ù‚s@~Ÿä¿≠›é¿ªÛÇ@ ˚]æO8@˘£@(÷>¿É“3¿ék÷øg¨§¿Ñe–@€0Ç@Q»Ωø7’Üæ∫⁄ØøG¿œá¿\»¿⁄§z@>·?T©1æ]%Õæ⁄Ñs¿ÚD°æøÖ∏@1¿í@„É¿i≠
+?ZO¿∂ª?¸4à@s]@Íìb@(Md@¶√I¿ËFø◊)6?r˝.øJR@„ü@˛Gô¿ÑL_¿ƒä\@Ìz¿sé‚?doñ?~Wi¿˝Øy¿Øÿ¿À¨≥¿Õ–•@n?-?ä
+ÏøÌ*©?:|æ¥æ¿Êk¿ﬁ6xø}êj@¸ê„?bSí>~ÌXø√ U¿mqSøºÿì@¸™’?åM$¿ÇaYøÓ(¿˛[pø⁄Fc@Lîè?π\&@ZH“?6àg¿hv•øø∫0?h_@ø“Ä @¡Ëº?ù‚u¿º»¯ø¶uy@ÖπFøXæ°?‘£	@-ı4¿¯A˚ø‘ŒAøëTL¿4—®@˙Î´?a#¿Ç¢?ïÚ≈>ï—ﬂøxµa¿høª„N@:ú†?Á	?xs@øﬁN¿	”ÚænõÜ@_»l?u¿¸[øÌ3¿/C!øTçS@è,?¬g@ñ'î?Jr\¿k\ø…Ìi?dø(ø˛nƒ?fxá?≠IV¿®ôØøK•Ç@n∑Eø+"?=Î?˜Å¿¨¸—ø µÆ=Ä-¿!±ú@æ¢q?Q+¿˛x°?Úq?¸g«øÆi^¿<ªæ8<7@Xm?˘>I?éÎ9ø≠ˆK¿&5æ«Ì~@S˛‰>6‰¿.ãæ¿SØææı≤L@Ë˙d>pﬁ@û¨^?°U¿eƒ	øÔ∏ì?Ü„&ørlç?áúW?º¿=¿ zÉøªXà@≥ÉWøÖçÉ<|©÷?Ä‚¿IíΩøWM?≈\¿t8ë@$/?¬ÑF¿–P™?ÃöΩ?}Ω¬øöˆ`¿Øæüı#@BÎ7?QÈÑ?°-Eø'P¿˝`ﬁ=¢”y@˝Xç=ï∆¿∞9ΩËÿ¿÷æ£æL@«êΩ!±ˆ?Ôã,?˘vU¿sTÖæÍ◊¥?Ê8ø{4?ÿÊB?]4*¿ÈMøLè@˚“tø∞øRV”?B◊Ëø∫Ö≥ø¬¥∫?;ê¿a á@6È?Wc¿üPæ?ß	@‚‘œø”0i¿R‡Ë=5@YÎ?È÷ß?ÍIdø£Z¿	ñ‡>ôÔ|@ê˘ôæıb¿ãB>ÔÚ¿˚M¢=;HS@—∆øæ@®Ì?49? \\¿π–=S⁄?.J_øªPú>™*L?}/¿+æ'ø#&ó@	Éêø|ùôø]n‡?8Ä≈øÄæ∞øÿ˜@*®¿√$|@Z¸ﬁ>LOÅ¿&7‚?π(@bÛø	%w¿S˚Ê>>U@O`?7œ?q¿èøˆk¿òc?ÈÛÉ@":?ø¿¿R]¯>YQ¿>π>±\`@7tBøÍÑÎ?å*¿>™îj¿ÉØ€>í@∑Dìøc3·Ω´∞x?”â¿Ÿ∆ø &°@ØÃ≤øÄÌøI"@›°°øx+µø .@ZÖ,¿Î=k@{‘>∆(í¿0@ucQ@Be¿ÀÖ¿oÇw?ÊMÙ?Ux?ˆ˙?O≤ƒøpáÅ¿⁄ ?¥‹å@˚Ì±øÂ0(¿Ã8k?–; ¿PLE?M`s@&¡™ø˛PÔ?πQ>|¿{ÒÉ?D¥@Ï⁄—øµ‡øY≠?J[ ¿ùøŒÌ¨@ŒÍø8#¿†R"@ˇåwø8ö√ørÀX@G&F¿[[@L$Ù>.·°¿ˆ)F@¸µx@(]¿üzé¿ È?w$ﬂ?Ôÿ?äf@]¿˙wå¿eÉ/@*9ñ@Aè¿ÁÅ3¿â·œ?¨)¿yè∂?ŒëÉ@75¿˝]ˆ?z9,Ωb≥ä¿€ƒ@ıU0@‹Ô¿ƒFpø,@iÍøƒNø¢u∏@˝%¿N¿à´_@†E*ø•%„ø)»@i˙t¿TYL@G,*?x9¶¿!öè@kLÇ@äE¶¿^õç¿ÔIM@ìV”?˛I?π@kM`¿)±à¿ûî@ Œì@ªÙÉ¿2€-¿∏¸0@™#¿üE@ïÇ@ ºv¿3dˆ?ÏÎŸæ&ˆâ¿ºân@õ–-@oa{¿3b|øAæU@ß”ÿøJø,‹∫@âs¿ip_¿Õë§@#âÊæ ≥¿wÚà@!˜°¿òE@˙çÖ?œxÜ¿vz≈@®4@πPÏ¿ﬂòS¿2^ú@√‰?tã?2kû?`∏†¿–(¿F›@+íN@Ï∆¿Ë›øÖÊÑ@#ÁŒøLMn@©n4@Èv∫¿k!’?–høö£=¿∑À∫@»gæ?µ¿ÅsK=‘ßú@Œ?ÿø^3Nø∏Sû@A›©¿fû¿¬3Á@yTøçâ:¿ïªb@Ec“¿∏(U@0§∆?˝„˚øBÓ‘@†∞–Ω·’¡·Åwø¶X¨@mc@πáõ?ÖsøwZØ¿Eo0?g˘Ò@ıÀë>	Ì›¿r±î>Rüí@b[i>!pÇ@úxí=úg—¿Ì~â?Tèéø+ΩF™“@ªÜøƒ¿©6@»ä™@∞5Ùøæpø6=@:π¿ßÑ|>pg˛@£©ßøÑlQ¿S^’?Dﬁ‡¿z≥Ä@;ã‹?F4ªæ≥sÆ@÷?¿)¢‘¿kå??œ“Ü@¥&@"ûÄ?¯(¿∏∞å¿¡‹K@ÀUΩ@ï ¿»≤¿wÄÍ?•˝g@⁄}Õ?L^K@∞Å¿¯˝©¿ıí?”b`øõı@üß@ΩØ<¿ì`ö¿¬Ø@•–Ñ@ ∫
+¿	Zøææ?Zô¿Qk@$H”@F‡˜øÏy?¿®>'±æ¿áäí@Ñ∏¨?J$4ΩÖÚÅ@-Z<¿¢<õ¿K˛ó?|6@°„2@Y_5?"K¿I∂F¿çƒ}@@L@‡ﬁ2¿øz¿Ey@≤æ@πË@∏ï@©0:¿çÿo¿∞Yˆ><›ø⁄HB@~≈c@m≠a¿X&T¿éÙè@c 1@ºa¿,≥,ørﬂí?the¿pó1@Ìû@ÅÏ¿òq"¿(ø>ÙÑñ¿;ò@Sa?#q†æ^—G@Ë1¿<*f¿_èÉ?Bíı?ó≈8@ÛÓ>[\M¿ËK¿ë°}@})@VQ7¿v‘.¿öù@ˆ¢÷?l@[&µ?ÎA¿∏e'¿©?å—ÆæKÄD@¶•@LË`¿?◊¿?∏é@‹“Â?O‚¿òúøóú´?H41¿3õ"@ƒÚq@¢©¿â1¿÷lÏ>é·u¿“"ò@o¢?§˝=øè¯#@_ƒ¿EÁ3¿^Ö2?glØ?›=@ﬁvä>;H¿WÃøzq@‚pÂ?µ¿/¿6ı˙øÛî@-î?ëa˛?¬>v?Ä>¿`-ÓøπÃ"? idæ˚∆9@Ê-Œ?≤ƒW¿ﬁ ø˚vâ@8ï?˙∂¿VÉºæá¶ÿ?Ω¿6@)4D@0?˛ø‰•˙øøzo?ÙﬁS¿§∂ñ@g≈ó>¡òøÙg@Úﬂˇøá¿i¬™>zvà?ªkD@q`¡=nD¿âgñø%ˆe@Xuú?Ù—'¿¨∑øô+@‡®M?‘+ˆ?TÌ)?ã;¿ Ä©øF?‚&4æÔ-@¥"è?z	P¿‡üèø•Ñ@⁄q<?í$¿3ínæz>@O~ ¿”úŒ?	´(@	'ÏøCµÊø’Ÿ∂?p‡>¿’åï@Ø˛==∂—ø7∂@kæŒø¡‘ ¿í4Ω‡,m?ﬂYM@—ÅºΩ≈pD¿˘WøUp^@∫’M?Ω"¿∫∫ÑøMñ@K?[ÅÛ?.¨‰>∏	;¿-dø&ln?Í‹>æME$@ôÂG?ÔYL¿ÁSDø-rÅ@œ‘>˝A,¿6ÑÆΩ˙¯@êø#Œë?&÷@%Ÿø∂—ÿøoNı?ó«1¿“ï@°Åºê¿n@3ä†ø¡ÛÈø„WŒævk?5Y@¥ì£æÛ’H¿q¢øÄÅ[@f«Á>!¿#ä0ø˙[@Y~í>%l˜?ÒÜ>œÍ>¿ﬂﬂıæ\˜ç? ¿ÇæáÄ@^A?ø>M¿y˘‰æfÄ@Á>I36¿[…=ç»9@è√Ìøëø+?ää@HU≈ø	“Œø/¯@°˚)¿ãëï@t¥æB¬!¿π0@1ÇhøÛ§ﬁø~vGø-EÜ?Fwg@∑ú ø[rQ¿≥m$æûﬂ\@‰\÷=·r"¿Ìﬁ™æÉi@O)®<©@‘è=ÈNF¿q¶µº∆Kß?RÀÀæÑ°@“®>ÉR¿Ñc”Ω¡tÄ@ {æetB¿?µ≤>»PV@]®˙øÕâM> Ù@˛Øø√«øco:@∆£&¿;‚ñ@bìæÿ⁄>¿˙p@ 1ø £ﬂøiQìø‘à¨?ävw@KâøT]¿J†>va@föætk%¿«„≥=›ˆ"@:¢æ»Ö	@áÄ0æ5SO¿¨?ëË¡?‘Y%ø±i@gV>Ï[¿„ﬂ®>Ó(Ç@‹’Óæû2P¿Fı6?©°t@∞¿iuåæg:@¿Úóø3›√øÏ<]@Á~(¿ŒÁò@ç’Ìæ]©Z¿qp)@◊Äæ)üÔø%áªøﬁ[?BäÇ@ô∫›ø˜∫g¿/#|?XKf@€UøYx&¿Äµ"?bj+@%ØIøÉÑ@
+`øI÷T¿4è¨?n¡ÿ?¿Üø-@ïäΩ˘Çc¿iKn?Ñ@aReø˚C\¿L`°?“Dâ@!Ç,¿§‡:ø˝m0@Dxø%˝ƒøwÅ@∂J2¿K	õ@I‡4ø⁄n¿¬Q@úC£;;m	¿J~…øüg,@¶É@ +¿gfg¿!.˜?Êd@∑R«ø‘∑¿…ß¨?bÁ,@d€πøf$@oÌÑøóK¿D›@•[ﬁ?çÅ“ø¯ @5"©æí c¿;¬‚?a;É@πΩø=^¿ü@Wî@]O_¿>âø7xU@L‰8ø∏iœø7£î@{I¿¶õ@ãÖø⁄ﬁm¿ÀrÉ@K\´=¿`$¿%nöø∆ñm@h@˛πs¿^wI¿hE@Ã#M@)¿bö¸øûa	@k@–h¿æ@M›øh>¿ñ£f@÷Òπ?¢à¿àï@÷)ø˝éI¿}Q3@˙≥t@·c¿ÔåF¿õ|@@»Ãë@ÏÇí¿º˝ãøûÑ@_Ê˙æﬂ–Ëøeî£@Uq¿˘ñó@!Ÿ∫øÏJ¿\Yú@ƒnæSh?¿≤¬0æ∑qê@Œ@Íñ¿O˛ˇø	ƒÄ@^V@È‚H¿€˚ÇøË,@^˝“?àØ=¿Oå‰?d…¿2·áøƒTé@N≈3?§>¿€’	@…·}ødı	¿£Tj@bJ@˘0¿jÕ	¿Å?r@,—s@Ñì≥¿£*ø5&ù@æøæÓ;¿ñò¶@–Mí¿84å@≥ Èøñ}¿îÖ•@Jø¡¸J¿#›ó?»í@¬;|?˛Wö¿T4 ø£¥Ü@2™¢?˙S¿r¨=«*@äÇ?ºBI¿º]~?ÃÚ+¿æ?êŸå@Ûæéæ€B¿„}Í?kpòø˙˝VøÀŸw@‰‘@2\;¿⁄iø9!{@1‡%@U ¡¿Oûå>¥¶@Ø˘ﬂæ‡Ü¿€‚õ@ØX¶¿ây@–a¯ø¢s¿øúù@~ }øÅÔC¿OE@xÁ@º@(æ¯…á¿É—1?•l@x…>UB>¿lúb?ÄT
+@¡;bæ»Ó4¿y*ç>â2$¿qÀË?∂Lh@œÖøÄz)¿¢˛¬?·‚õø‚h>n]@ﬂÆÀ?πó+¿nê=)^@B®¡?ÑA∏¿^\Ñ?bvü@?…øò∂&¿s¬å@h¬≠¿ÉR_@=âËø¿Yäø5úé@œùøb<4¿≥€1@0wM@'ëDø≥ﬂ\¿2º≠?≈ë;@ª-—Ω}Q¿›£?∞2∆?>3øp(¿Çä<ætÒ¿Ô@c2,@j¢πøø¿#∑ß?9sìø‹U?A5@(_ò?»û¿G‘?_Ω4@•ø^?~»•¿≤Bª?9˚ê@ﬂ Cøx1*¿A≈Å@∫ ¨¿◊õP@É˙ÃøD oøúÄ@j©øc?$¿Ÿã=@æ∂ @ÑJ}ø˝˛/¿ıÄ—?Ø¥@˘B£æc≠˛ø¸á≤?!Ñ?Q:iø|óÔøΩØ⁄æˆø	Æ%@„ïÚ?Å—ÃøQÖœø√≥ó?¡∂àø›ßç?ˆ@!sÅ?Má˜ø TO?Ë™@¸d?cì¿¨‹œ?∑Ç@ËQ^øz«)¿Ãy@Ø8ß¿xFJ@…<≥øÇ»pøL–h@≤Q™ø5Ú¿5´=@f–˚?ÓÇøk¿~á€?‘Ω⁄?Ué∆æ,˚œø«±?‹%?hëzø7>¡øù¨
+ø}”øeﬁ$@?¶?ÕNœø†>üøE„é?/)øïZô?ûÂ?Íïs?È‘ø>"Z?”¡Â?jt ?QZÑ¿G—?⁄?n@BÉmø‚"(¿ãıv@£$¢¿9èH@˛-üø
+»Çø•:W@b<¶øLô¿£Í8@eç«?MÜuø„°Áø1ÏŸ?3(ß?C‰∆æÓJ≠ø”¨™?,∫>Å√zøﬁVûø˝„ø^Û∑øÃ3@æ8\?¨ï øªvø\,ä?röqø‘_ö?2„π?¬°r?∑	∫øﬂR? ‰∫?éü?ÅÆq¿π»?.ô\@[tøﬁs&¿[z@◊Ôù¿èI@ÄêøêGëø<J@ì–üøN¥¿ÛÑ2@á=†?1_øò»¡ø-¨”?•rÄ?Éö∏æöÆìøΩ°?&.!>GΩsø∏/Ñø•ø)£ø6%@K
+?/C√ø©á?øıøá?â6høÏñ?«6ô?(Âw?k$ßøÖûB?Uõ?N«?a]`¿ƒNº?›iO@j◊uøõ#%¿Y%Ä@ë∆ö¿2°J@e˘ÖøºB°ø{´@@Üçòø˜b˝øZË+@L1Ç?∂ Føés•øp˝À?ˆE?°%•æòÄø◊ò?¸¸l;)jøPø`øc\ø 2ìø#@a!ô>ÕhªøÔø*¢Ü?öbøÿÂë?”ÖÄ?Cç?™fôø	E1?Â+É? ‰,?YS¿oeÆ?RòE@ˆÙsøÀI$¿ÆÑ@éò¿†úL@wÛ|øì}±ø_¢9@-ëø4Ùøƒ´%@lÄU?ÿd/ø∆ﬂèøÙHƒ?_5?¬êæ÷Pdø?≠ê?ˆíÈΩh$`ø=:BøCCøœÜøH∫
+@Î=¢Â≥øôÎæ©JÜ?‡b^øcõå?K[?òÓÉ?hXèøÙ= ?I’a?∞éD?ïÑI¿Á<†?ôF>@Ûoø·#¿úîà@
+ó¿5¬N@”QrøLi¡øóy4@
+äøú*Ìø @&0?5ÀøFJ~ø€"Ω?û„Á>ÿ|zæı"Nøerâ?úTSæ≤ôVø›L*øXwø˝'zøª@r~ˆº≤≠ø4Ç∑æ4nÜ?πÖ\ø(úá?óf=?2	à?~Úáøp?=tE?x*\?B¿!hí?o“8@æòjøπ€#¿JVç@ Lñ¿XÚP@‹jøœ –ø∫0@k>Éøò≈Áø¶ˇ@z…?¨>øfËcø2æ∂?5<≠>èîVæ¿ÿ<øÎ$É?L¨èæ‰Møv7ø*áø8ÆjøJ# @©+æ˜¶ø£çæ‚Ü?«\øÉ?W¬%?qÔã?ä~Çøﬁ"?'/?˝r?Êb<¿ò%Ö?v«4@’bdø+$¿πAí@¨˝ï¿|S@Vºeø
